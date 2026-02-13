@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 
-from src.config import settings
-from src.reader import DocsReader
+from src.docs_server.config import settings
+from src.docs_server.reader import DocsReader
 
 mcp = FastMCP("docbridge")
 reader = DocsReader(settings.docs_dir)

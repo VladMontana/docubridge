@@ -1,4 +1,4 @@
-from src.server import mcp
+from src.docs_server.server import mcp
 
 
 def main() -> None:
